@@ -224,3 +224,13 @@ section {
 .s-box img {
     width: 90px;
 }
+
+.s-box h3 {
+    margin: 4px 0 10px;
+    color: var(--main-color);
+    font-size: 1.2rem;
+}
+
+.s-box p {
+    line-height: 1.7;
+}
