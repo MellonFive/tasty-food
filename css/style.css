@@ -234,3 +234,18 @@ section {
 .s-box p {
     line-height: 1.7;
 }
+
+.cta {
+    background: #feeee7;
+    padding: 70px 0;
+    text-align: center;
+    width: 66%;
+    margin: 100px auto;
+    border-radius: 10px;
+}
+
+.cta h2 {
+    font-size: 2rem;
+    color: var(--bg-color);
+    margin-bottom: 30px;
+}
