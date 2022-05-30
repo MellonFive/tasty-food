@@ -249,3 +249,70 @@ section {
     color: var(--bg-color);
     margin-bottom: 30px;
 }
+
+.main {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer {
+    padding: 10px 0;
+}
+
+.col {
+    width: 25%;
+}
+
+.col h4{
+    font-size: 1.2rem;
+    color: var(--text-color);
+    margin-bottom: 25px;
+    position: relative;
+}
+
+.col h4::before {
+    content: "";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: var(--main-color);
+}
+
+.col ul li:not(:last-child) {
+    margin-bottom: 15px;
+}
+
+.col ul li a {
+    color: #9897a9;
+    font-size: 1.1rem;
+    display: block; /* Tag a é padrão display: inline */
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.col ul li a:hover {
+    color: var(--text-color);
+    transform: translateX(-12px);
+}
+
+.col .social a {
+    height: 40px;
+    width: 40px;
+    margin: 0 5px;
+    background: var(--main-color);
+    color: var(--text-color);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    transition: .4s;
+}
+
+.col .social a:hover {
+    transform: scale(1.2);
+    color: var(--bg-color);
+    background: var(--text-color);
+}
