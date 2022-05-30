@@ -210,15 +210,17 @@ section {
 }
 
 .service-container {
-    border: 2px solid yellow;
     display: grid;
-    grid-template-columns: repeat(auto-fix, minmax(240px, auto));
+    grid-template-columns: repeat(auto-fit, minmax(240px, auto));
     grid-gap: 1.5rem;
     margin-top: 4rem;
 }
 
 .s-box {
-    border: 2px solid red;
     text-align: center;
     padding: 20px 30px;
+}
+
+.s-box img {
+    width: 90px;
 }
