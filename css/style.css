@@ -331,6 +331,7 @@ section {
     section {
         padding: 50px 8%;
     }
+    
     #menu-icon {
         display: initial;
         color: var(--text-color);
@@ -348,7 +349,7 @@ section {
         transition: .3s;
     }
 
-    header .navbar .active {
+    header .navbar.active {
         top: 70px;
     }
 
