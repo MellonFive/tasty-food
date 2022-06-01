@@ -193,6 +193,7 @@ section {
     font-size: 1rem;
     font-weight: 400;
     margin: 4px 0 10px;
+    text-align: center;
 }
 
 .box span {
