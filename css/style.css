@@ -104,6 +104,7 @@ section {
     background: var(--main-color);
     color: #FFF;
     border-radius: 0.5rem;
+    transition: .4s;
 }
 
 .btn:hover {
